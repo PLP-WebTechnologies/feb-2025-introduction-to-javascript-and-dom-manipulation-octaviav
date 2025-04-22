@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Make A Difference</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <nav>
+    <div class="logo">CharityNow</div>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Projects</a>
+      <a href="#" class="active">Donate</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="hamburger">☰</div>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <h1>Make a Difference</h1>
+      <p>Your donation helps us continue our mission</p>
+    </section>
+
+    <section class="donation-form">
+      <h2>Donation Details</h2>
+      <form>
+        <div class="form-group">
+          <label for="amount">Amount</label>
+          <div class="amount-options">
+            <button type="button" class="amount-btn">R10</button>
+            <button type="button" class="amount-btn active">R25</button>
+            <button type="button" class="amount-btn">R50</button>
+            <button type="button" class="amount-btn">R100</button>
+          </div>
+          <input type="number" id="amount" placeholder="Custom amount">
+        </div>
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" required>
+        </div>
+        <button type="submit" class="donate-btn">Donate Now</button>
+      </form>
+    </section>
+
+    <section class="impact">
+      <h2>Your Impact</h2>
+      <div class="impact-grid">
+        <div class="impact-card">
+        <h3>R25</h3>
+          <p>Provides meals for a family in need</p>
+        </div>
+        <div class="impact-card">
+          <h3>R50</h3>
+          <p>Supplies educational materials to children</p>
+        </div>
+        <div class="impact-card">
+          <h3>R100</h3>
+          <p>Funds medical care for those in need</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 aba.da.la. All rights reserved.</p>
+  </footer>
+</body>
+</html>
